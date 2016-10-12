@@ -10,4 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cn.ben.googleplaytrainingbuildingui.DisplayMessageActivity">
 
+    <Button
+        android:id="@+id/btn_use_string_res_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="useStringResource1"
+        android:text="@string/button_use_string_resource_1" />
+
+    <Button
+        android:id="@+id/btn_use_string_res_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_use_string_res_1"
+        android:onClick="useStringResource2"
+        android:text="@string/button_use_string_resource_2" />
+
 </RelativeLayout>

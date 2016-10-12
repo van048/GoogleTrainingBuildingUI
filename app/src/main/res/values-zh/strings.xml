@@ -3,4 +3,6 @@
     <string name="app_name">我的第一个应用</string>
     <string name="edit_message">输入消息</string>
     <string name="button_send">发送</string>
+    <string name="button_use_string_resource_1">使用字符串资源 1</string>
+    <string name="button_use_string_resource_2">使用字符串资源 2</string>
 </resources>
